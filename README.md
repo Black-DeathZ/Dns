@@ -5,7 +5,8 @@
 
 * tip 2 : download macchanger its will change your mac adress and other info ..  80% of games gave ban in mac so its too important to change it / if you playing a  high secure game like fortnite you should change the mac every 30sec or 1 min to "delay" the ban .
 
-* tip 3 : clear cache and junk files / use CCleaner
+* tip 3 : clear temp files and junk files / use CCleaner
 
 *  tip 4 restart the router
+
 
