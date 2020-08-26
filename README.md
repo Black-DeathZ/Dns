@@ -12,4 +12,4 @@
 
 *  tip 6 restart the route & your device
 
-## * most Important Tip :  dont use Cheats when The Games is about to update or season end couz the game Value Change and when the server detect you its will instantly give you ban  no matter how they are safe
+* ## most Important Tip :  dont use Cheats when The Games is about to update or season end couz the game Value Change and when the server detect you its will instantly give you ban  no matter how they are safe
