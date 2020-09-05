@@ -16,9 +16,10 @@
 
 * tip 7:change hardware  serial number
 
-* tip 8:  clean temp files every gameplay to  avoid ban  and if you playing too much better use 300 cleaner its will  clean the temp files and flush dns every 300 seconds without stopping.
+* tip 8: Never Play with weak Internet , The Server will suspect you as using  Ddos Attack so its will give you Short time bane (Not All games use it for protection but most of them).....
 
-* tip 9: Never Play with weak Internet , The Server will suspect you as using  Ddos Attack so its will give you Short time bane (Not All games use it for protection but most of them).....
+* tip 9:  clean temp files a flush dns  every gameplay to  avoid ban  and if you playing too much better use  repeater its will flush dns every 300 seconds without stopping.
+
 
 *  most Important Tip :  dont use Cheats when The Games is about to update or season end couz the game Value Change and when the server detect you its will instantly give you ban  no matter how the cheat are safe
 
