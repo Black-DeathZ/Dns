@@ -9,7 +9,4 @@ netsh int ip reset
 ipconfig /release
 ipconfig /renew
 ipconfig /flushdns
-cls
-del /f /s /q "%userprofile%\Local Settings\Temp\*.*"
-del /f /s /q "%userprofile%\recent\*.*"
 goto start
