@@ -14,6 +14,10 @@
 
 * tip 7:change hardware  serial number
 
-tip 8:  clean temp files every game to  avoid ban  and if you playing too much better use 300 cleaner its will  clean the temp files every 300 seconds without stoping.
+* tip 8:  clean temp files every game to  avoid ban  and if you playing too much better use 300 cleaner its will  clean the temp files every 300 seconds without stoping.
 
-* ## most Important Tip :  dont use Cheats when The Games is about to update or season end couz the game Value Change and when the server detect you its will instantly give you ban  no matter how the cheat are safe
+*  most Important Tip :  dont use Cheats when The Games is about to update or season end couz the game Value Change and when the server detect you its will instantly give you ban  no matter how the cheat are safe
+
+*  All files that you need in Releases.
+
+Enjoy !
