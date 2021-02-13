@@ -16,13 +16,17 @@
 
 * tip 7:change hardware  serial number
 
-* tip 8: Never Play with weak Internet , The Server will suspect you as using  Ddos Attack so its will give you Short time bane (Not All games use it for protection but most of them).....
+* tip 8: Never Play with weak Internet , The Anti-Cheat will suspect you as using  Ddos Attack so its will give you Short time bane (Not All games use it for protection but most of them).....
 
 * tip 9:  clean temp files a flush dns  every gameplay to  avoid ban  and if you playing too much better use  repeater its will flush dns every 300 seconds without stopping.
 
-
-*  most Important Tip :  dont use Cheats when The Games is about to update or season end couz the game Value Change and when the server detect you its will instantly give you ban  no matter how the cheat are safe
+*  most Important Tip :  dont use Cheats when The Games is about to update or season end couz the game Value Change and when the Anti-Cheat  detect you its will instantly give you ban  no matter how the cheat are safe
 
 *  All files that you need in Releases.
+
+# Anti-Cheat
+## About Anti-Cheat
+* Anti-cheat software is designed to prevent players of online games from gaining unfair advantage through the use of third-party tools, usually taking the form of software hooks. It is challenged to run securely in an aggressively hostile environment. See Cheating in online games.
+
 
 Enjoy !
