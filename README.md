@@ -59,9 +59,9 @@
 * Statistical Anomaly Detection
 * Heuristics
 
-* For example  This code will patch "IsDebuggerPresent " and it will return false every time insted of true!
+## For example  This code will patch "IsDebuggerPresent " and it will return false every time insted of true!
 
-## this code is Taken from guidedhacking forum 
+* this code is Taken from guidedhacking forum 
 ```
 #include <iostream>
 #include <Windows.h>
