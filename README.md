@@ -25,8 +25,122 @@
 *  All files that you need in Releases.
 
 # Anti-Cheat
+
 ## About Anti-Cheat
+
 * Anti-cheat software is designed to prevent players of online games from gaining unfair advantage through the use of third-party tools, usually taking the form of software hooks. It is challenged to run securely in an aggressively hostile environment. See Cheating in online games.
+
+# Features of Anti-Cheat 
+
+* File Integrity Checks
+* String Detection for cheat tools
+* Classic AntiDebug
+* Obfuscation
+* Signature Based Detection
+* Hook Detection
+* Memory Integrity Checks
+* Virtualization
+* Kernel Drivers which block process access token creation & more
+* Virtualization Detection
+
+# How to Bypass Anti-Cheat 
+
+*  To bypass anticheat you must understand how it works,Anticheat work very similarly to Antivirus,and there is no trick or method to bypass them all ... !!
+
+* File Integrity Checks
+* Detecting Debuggers
+* Stops debugger from attaching
+* Detect Cheat Engine & memory editors
+* Signature Based Detection
+* Detect DLL injection
+* Detect Hooks
+* Block Read/WriteProcessMemory
+* Memory integrity checks
+* Statistical Anomaly Detection
+* Heuristics
+
+* For example  This code will patch "IsDebuggerPresent " and it will return false every time insted of true!
+
+## this code is Taken from guidedhacking forum 
+```
+#include <iostream>
+#include <Windows.h>
+#include <TlHelp32.h>
+
+DWORD GetProcId(const char* procName)
+{
+    DWORD procId = 0;
+    HANDLE hSnap = CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
+    if (hSnap != INVALID_HANDLE_VALUE)
+    {
+        PROCESSENTRY32 procEntry;
+        procEntry.dwSize = sizeof(procEntry);
+
+        if (Process32First(hSnap, &procEntry))
+        {
+            do
+            {
+                if (!_stricmp(procEntry.szExeFile, procName))
+                {
+                    procId = procEntry.th32ProcessID;
+                    break;
+                }
+            } while (Process32Next(hSnap, &procEntry));
+
+        }
+    }
+    CloseHandle(hSnap);
+    return procId;
+}
+
+uintptr_t GetModuleBaseAddress(DWORD procId, const char* modName)
+{
+    uintptr_t modBaseAddr = 0;
+    HANDLE hSnap = CreateToolhelp32Snapshot(TH32CS_SNAPMODULE | TH32CS_SNAPMODULE32, procId);
+    if (hSnap != INVALID_HANDLE_VALUE)
+    {
+        MODULEENTRY32 modEntry;
+        modEntry.dwSize = sizeof(modEntry);
+        if (Module32First(hSnap, &modEntry))
+        {
+            do
+            {
+                if (!_stricmp(modEntry.szModule, modName))
+                {
+                    modBaseAddr = (uintptr_t)modEntry.modBaseAddr;
+                    break;
+                }
+            } while (Module32Next(hSnap, &modEntry));
+        }
+    }
+    CloseHandle(hSnap);
+    return modBaseAddr;
+}
+
+void PatchEx(BYTE* dst, BYTE* src, unsigned int size, HANDLE hProcess)
+{
+    DWORD oldprotect;
+    VirtualProtectEx(hProcess, dst, size, PAGE_EXECUTE_READWRITE, &oldprotect);
+    WriteProcessMemory(hProcess, dst, src, size, nullptr);
+    VirtualProtectEx(hProcess, dst, size, oldprotect, &oldprotect);
+}
+
+int main()
+{
+    DWORD procId = GetProcId("CS2D.exe");
+
+    HANDLE hProc = OpenProcess(PROCESS_ALL_ACCESS, NULL, procId);
+
+    //mov eax, 0
+    //ret
+    PatchEx((BYTE*)IsDebuggerPresent, (BYTE*)"\xB8\x0\x0\x0\x0\xC3", 6, hProc);
+
+    std::getchar();
+    return 0;
+}
+
+```
+
 
 
 Enjoy !
