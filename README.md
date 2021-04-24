@@ -1,8 +1,7 @@
 # How To Remove Ban From computer after using games Cheats ?
 
 
-* tip 1 : flush dns lot of games  gave ban in dns like pubg .(i notice that facebook is using this method to ban your device if you create lot of accounts ).. 
-
+* tip 1 : flush dns . 
 * tip 2 : use ware or TMAC applications for windows to change ur pc's hardware id (HDD-network adapter's mac address) ..  80% of games gave ban in mac so its too important to change it / if you playing a  high secure game like fortnite you should change the mac every 30sec or 1 min to "delay" the ban .
 > Note: dont close TMAC after changing mac Adress.
 
@@ -16,7 +15,7 @@
 
 * tip 7:change hardware  serial number
 
-* tip 8: Never Play with weak Internet , The Anti-Cheat will suspect you as using  Ddos Attack so its will give you Short time bane (Not All games use it for protection but most of them).....
+* tip 8: Never Play with weak Internet , The Anti-Cheat will suspect you as using  Ddos Attack so its will give you Short time ban (Not All games use it for protection but most of them).....
 
 * tip 9:  clean temp files a flush dns  every gameplay to  avoid ban  and if you playing too much better use  repeater its will flush dns every 300 seconds without stopping.
 
